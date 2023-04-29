@@ -10,7 +10,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   song.play();
   song.setVolume(0.5);
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 1200; i++) {
     stars[i] = new Star();
   }
 
