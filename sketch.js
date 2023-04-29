@@ -39,7 +39,7 @@ function draw() {
 }
 
 function startMusic() {
-  song.play();
+  song.loop();
   song.setVolume(0.5);
   button.hide();
 }
