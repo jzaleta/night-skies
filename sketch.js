@@ -35,12 +35,14 @@ class Star {
     this.size = random(0.2, 3);
     this.t = random(TAU);
     this.FlashSpeed = random(0.01, 0.1);
+    this.color = color(random(200, 255), random(200, 255), random(200, 255));
   }
 
   draw() {
     this.t += this.FlashSpeed;
     let scale = this.size + sin(this.t) * 2;
     noStroke();
+    fill(this.color);
     ellipse(this.x, this.y, scale, scale);
   }
 }
