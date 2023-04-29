@@ -1,4 +1,5 @@
-var song;
+let song;
+let button;
 let stars = [];
 let shootingStars = [];
 
@@ -8,8 +9,11 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  song.play();
-  song.setVolume(0.5);
+
+  button = createButton("Play");
+  button.position(10, 10);
+  button.mousePressed(startMusic);
+
   for (let i = 0; i < 1200; i++) {
     stars[i] = new Star();
   }
@@ -32,6 +36,12 @@ function draw() {
       shootingStars.splice(i, 1);
     }
   }
+}
+
+function startMusic() {
+  song.play();
+  song.setVolume(0.5);
+  button.hide();
 }
 
 class Star {
@@ -105,4 +115,3 @@ class ShootingStar {
     this.y += this.yv;
   }
 }
-
