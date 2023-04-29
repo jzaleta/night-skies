@@ -1,9 +1,15 @@
+var song;
 let stars = [];
 let shootingStars = [];
 
+function preload() {
+  song = loadSound("music/gymnopedie.mp3");
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
+  song.play();
+  song.setVolume(0.5);
   for (let i = 0; i < 1000; i++) {
     stars[i] = new Star();
   }
@@ -99,3 +105,4 @@ class ShootingStar {
     this.y += this.yv;
   }
 }
+
