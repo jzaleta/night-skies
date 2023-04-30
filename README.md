@@ -1,4 +1,4 @@
-# ```🌌``` Night Skies
+# ```🌌``` night-skies
 
 ![GitHub top language](https://img.shields.io/github/languages/top/j-cordz/night-skies?color=red)
 ![GitHub language count](https://img.shields.io/github/languages/count/j-cordz/night-skies)
