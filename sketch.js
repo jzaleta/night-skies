@@ -10,7 +10,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  button = createButton("Play");
+  button = createButton("Play music");
   button.position(10, 10);
   button.mousePressed(startMusic);
 
