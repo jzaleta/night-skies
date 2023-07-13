@@ -9,7 +9,6 @@ console.log(
 );
 console.log();
 
-// Initializing p5.js
 new p5(mySketch, document.getElementById("sketch"));
 
 music();
