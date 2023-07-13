@@ -1,5 +1,6 @@
 import p5 from "p5"
 import { mySketch } from "./sketch.js";
+import { music } from './button.js';
 import "./style.css";
 
 console.log(
@@ -10,3 +11,5 @@ console.log();
 
 // Initializing p5.js
 new p5(mySketch, document.getElementById("sketch"));
+
+music();
