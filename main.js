@@ -1,6 +1,6 @@
 import p5 from "p5"
 import { mySketch } from "./sketch.js";
-import { music } from './button.js';
+import { music } from './music.js';
 import "./style.css";
 
 console.log(
