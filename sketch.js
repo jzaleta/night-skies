@@ -1,4 +1,3 @@
-// Exporting a function called 'mySketch'
 export const mySketch = (p) => {
   let stars = [];
   let shootingStars = [];
