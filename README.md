@@ -8,7 +8,7 @@
 Starry-sprinkled night skies with a chance of shooting stars and Lo-fi beats.
 
 ## About
-[Night skies](https://night-skies.vercel.app/) is a small website created with HTML and JavaScript with the `P5.js` library that includes a starry night sky and random shooting stars and some lo-fi beats! 
+[Night skies](https://night-skies.vercel.app/) is a small website created with Vite.js and the `P5.js` library that includes a starry night sky and random shooting stars and some lo-fi beats! 
 
 ![](assets/night-skies.png)
 
