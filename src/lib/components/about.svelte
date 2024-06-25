@@ -5,7 +5,9 @@
 
   <footer class="w-full">
     <div class="flex flex-col items-center py-4">
-      <p class="text-center text-base">
+      <p
+        class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center text-base"
+      >
         A project built w/ love and &lt;\&gt;
         <br /> by
         <a
