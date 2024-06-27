@@ -2,7 +2,7 @@
   let title = "Javier Zaleta"; // that's me!
   let name = "Night Skies ✨"; // site name
   let description =
-    "Starry-sprinkled night skies with a chance of shooting stars and lofi beats."; // page description
+    "Starry-sprinkled night skies with a chance of shooting stars and lofi beats"; // page description
   let image = "https://github.com/jzaleta.png"; // social card image URL
 
   const makeTitle = (title, name) =>
