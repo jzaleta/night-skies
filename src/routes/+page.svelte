@@ -7,6 +7,7 @@
   import Javi from "$lib/components/javi.svelte";
   import Meta from "$lib/components/meta.svelte";
   import Music from "$lib/components/music.svelte";
+  import Sky from "$lib/components/sky.svelte";
 </script>
 
 <main style:height="100vh" style:width="100vw">
@@ -20,3 +21,4 @@
 <Javi />
 <Meta />
 <Music />
+<Sky />
