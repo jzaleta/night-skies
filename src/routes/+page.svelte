@@ -6,6 +6,7 @@
   import Corner from "$lib/components/corner.svelte";
   import Footer from "$lib/components/footer.svelte";
   import Javi from "$lib/components/javi.svelte";
+  import Music from "$lib/components/music.svelte";
 </script>
 
 <main style:width="100vw" style:height="100vh">
@@ -18,3 +19,4 @@
 <Corner />
 <Footer />
 <Javi />
+<Music />
