@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --cream: #ffefd5;
+  --peach: #f9b572;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Averia Serif Libre", Georgia, serif;
+  color: var(--cream);
+  background-color: black;
+  overflow: hidden;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--peach);
+  text-decoration: none;
+}
