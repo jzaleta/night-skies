@@ -1,38 +1,16 @@
-# create-svelte
+# ✨ night-skies
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A web experience I crafted using SvelteKit for the frontend and Three.js with Threlte for the 3D graphics.
 
-## Creating a project
+_Here's what it does:_
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Renders a dynamic starfield with stars and occasional shooting stars
+- Plays lofi beats in the background
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+![Night Skies](night-skies.jpeg)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+> ###### 🎧 Lofi Classical - Satie's Gymnopédie No. 1
 
-## Developing
+# 📄 License
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is made open-source with the [MIT License](LICENSE).
